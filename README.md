@@ -8,6 +8,14 @@ Tested toolchain parameters:
 - Keil version: Keil uVision 5
 - ARM Compiler: default v5 compiler and V6.16 (ARMCLANG) (both worked)
 
+## Dependencies
+- Keil uVision 5
+  - *Not linked for potential copyright reasons*
+- lm4flash (bundled in lm4tools)
+  - https://github.com/utzig/lm4tools
+  - https://aur.archlinux.org/packages/lm4flash
+    - OR https://aur.archlinux.org/packages/lm4tools-git
+
 ## Usage:
 - `make` or `make all` 
   - Since make runs the first target by default, both of these options just use keil to build the project.
