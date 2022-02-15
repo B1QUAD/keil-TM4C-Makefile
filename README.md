@@ -1,7 +1,8 @@
 # Disclaimer: Use this software at your own risk! 
 ## **Refer to the [LICENSE file](https://github.com/B1QUAD/keil-TM4C-Makefile/blob/main/LICENSE) for more information.**
 
-Generic makefile for anyone running Keil through wine on linux. Tested working on using the TI TM4C123GH6PM as a build target.
+Generic makefile for building and flashing programs using Keil through wine on linux. Tested working on using the TI TM4C123GH6PM as a build target.
+Should work with TI Stellaris Launchpad development boards and easilly adapted to other platforms.
 
 Tested toolchain parameters:
 - Linux kernel: kernel 5.16.8-arch1-1
